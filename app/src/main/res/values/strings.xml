@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">XPlay</string>
+    <string name="title_login">Welcome</string>
+    <string name="text_descreption">The interaction of the corporation &amp; \nthe customer pushes the institutional \ncorporate identity</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+
+</resources>

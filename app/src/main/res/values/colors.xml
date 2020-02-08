@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF1500</color>
+    <color name="colorPrimaryDark">#FF1500</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="first_taskar">#FF0C00</color>
+    <color name="end_taskbar">#FF1F00</color>
+    <color name="end_top">#FF8400</color>
+    <color name="text_color_group">#5D5D5D</color>
+    <color name="color_sign_in">#FF6600</color>
+    <color name="color_sign_up">#8A8AFF</color>
+    <color name="color_descreption">#A29A9A</color>
+    
+    <color name="background_splash">#263238</color>
+    <color name="color_text_splash">#F5F5F5</color>
+    <color name="colorBackground">#151c25</color>
+    <color name="text_light_blue">#566f9a</color>
+</resources>
