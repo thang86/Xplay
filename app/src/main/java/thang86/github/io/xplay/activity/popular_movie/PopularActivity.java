@@ -6,6 +6,10 @@ import android.os.Bundle;
 
 import thang86.github.io.xplay.R;
 
+/**
+ * Created by TranThang on 2/8/2020.
+ */
+
 public class PopularActivity extends AppCompatActivity {
 
     @Override

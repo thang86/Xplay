@@ -5,6 +5,9 @@ import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
 
+/**
+ * Created by TranThang on 2/8/2020.
+ */
 
 public class Response {
     @SerializedName("page")

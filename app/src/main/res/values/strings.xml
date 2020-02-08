@@ -5,4 +5,8 @@
     <string name="sign_in">Sign in</string>
     <string name="sign_up">Sign up</string>
 
+    <!--Popular Movie Screen-->
+
+    <string name="ed_search">Search... </string>
+
 </resources>

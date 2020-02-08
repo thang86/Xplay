@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Popular Movie Screen-->
+    <dimen name="popular_ed_padding_left">26.3dp</dimen>
+    <dimen name="popular_ed_margin_left">21dp</dimen>
+    <dimen name="popular_ed_margin_top">21dp</dimen>
+    <dimen name="text_size">14sp</dimen>
+    <dimen name="popular_ed_pading_top">7.3dp</dimen>
+    <dimen name="popular_ed_pading_bottom">6.9dp</dimen>
+
+
+</resources>

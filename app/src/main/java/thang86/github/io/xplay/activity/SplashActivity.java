@@ -18,6 +18,10 @@ import thang86.github.io.xplay.R;
 import thang86.github.io.xplay.activity.login.LoginActivity;
 import thang86.github.io.xplay.activity.popular_movie.PopularActivity;
 
+/**
+ * Created by TranThang on 2/8/2020.
+ */
+
 public class SplashActivity extends AppCompatActivity {
     private static final String TAG = SplashActivity.class.getSimpleName();
     @BindView(R.id.app_logo)

@@ -16,4 +16,7 @@
     <color name="color_text_splash">#F5F5F5</color>
     <color name="colorBackground">#151c25</color>
     <color name="text_light_blue">#566f9a</color>
+
+    <!--Popular Movie Screen-->
+    <color name="popular_gray">#959595</color>
 </resources>

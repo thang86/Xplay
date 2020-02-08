@@ -5,6 +5,10 @@ import retrofit2.http.GET;
 import retrofit2.http.Query;
 import thang86.github.io.xplay.model.Response;
 
+/**
+ * Created by TranThang on 2/8/2020.
+ */
+
 public interface MovieApiService {
 
     @GET("movie/popular")
