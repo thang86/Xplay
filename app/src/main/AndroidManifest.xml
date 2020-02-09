@@ -13,10 +13,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.popular_movie.PopularActivity"></activity>
+<!--        <activity android:name=".activity.popular_movie.TestActivity"></activity>-->
+        <!-- <activity android:name=".activity.popular_movie.TestActivity"></activity> -->
         <activity android:name=".activity.login.LoginActivity" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".activity.SplashActivity">
+        <activity android:name=".activity.popular_movie.TestActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

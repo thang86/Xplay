@@ -1,7 +1,5 @@
 package thang86.github.io.xplay.activity;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
@@ -10,12 +8,11 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import io.reactivex.disposables.CompositeDisposable;
-import thang86.github.io.xplay.MainActivity;
 import thang86.github.io.xplay.R;
-import thang86.github.io.xplay.activity.login.LoginActivity;
 import thang86.github.io.xplay.activity.popular_movie.PopularActivity;
 
 /**
@@ -26,7 +23,6 @@ public class SplashActivity extends AppCompatActivity {
     private static final String TAG = SplashActivity.class.getSimpleName();
     @BindView(R.id.app_logo)
     ImageView imgAppLogo;
-    private CompositeDisposable disposable = new CompositeDisposable();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,7 +46,5 @@ public class SplashActivity extends AppCompatActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        disposable.clear();
-        disposable.dispose();
     }
 }

@@ -11,6 +11,7 @@
     <color name="color_sign_in">#FF6600</color>
     <color name="color_sign_up">#8A8AFF</color>
     <color name="color_descreption">#A29A9A</color>
+    <color name="white">#ffffff</color>
     
     <color name="background_splash">#263238</color>
     <color name="color_text_splash">#F5F5F5</color>
@@ -19,4 +20,6 @@
 
     <!--Popular Movie Screen-->
     <color name="popular_gray">#959595</color>
+    <color name="gray300">#E0E0E0</color>
+    <color name="materialWhiteText">#B3FFFFFF</color>
 </resources>

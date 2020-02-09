@@ -20,19 +20,84 @@
             android:id="@+id/ed_search_popular_movie"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingLeft="26.3dp"
-            android:layout_marginLeft="21dp"
-            android:layout_marginRight="21dp"
-            android:layout_marginTop="21dp"
-            android:textSize="14sp"
+            android:paddingStart="@dimen/popular_ed_padding_left"
+            android:paddingEnd="@dimen/popular_ed_padding_left"
+            android:layout_marginLeft="@dimen/popular_ed_margin_left"
+            android:layout_marginRight="@dimen/popular_ed_margin_left"
+            android:layout_marginTop="@dimen/popular_ed_margin_top"
+            android:textSize="@dimen/text_size"
             android:lineSpacingExtra="1dp"
-            android:textFontWeight="Regular"
-            android:textColor="#959595"
-            android:paddingTop="7.3dp"
-            android:paddingBottom="6.9dp"
+            android:textColor="@color/popular_gray"
+            android:paddingTop="@dimen/popular_ed_pading_top"
+            android:paddingBottom="@dimen/popular_ed_pading_bottom"
             android:layout_marginBottom="21dp"
+            android:maxLines="1"
             android:background="@drawable/background_edit_text_search"
-            android:text="Search..."/>
+            android:text="@string/ed_search"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/layout_search_popular_movie"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="23.7dp"
+            android:background="#141A32"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="11dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:background="@drawable/background_linearlayout"
+                    >
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_movies"
+                        />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/tv_movies"
+                    android:textSize="15sp"
+                    android:layout_gravity="center"
+                    android:lineSpacingExtra="2.5sp"
+                    android:textColor="@color/white"
+                    />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:background="#000000">
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
 
     </LinearLayout>
 

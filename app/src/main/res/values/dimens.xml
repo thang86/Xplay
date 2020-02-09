@@ -7,6 +7,8 @@
     <dimen name="text_size">14sp</dimen>
     <dimen name="popular_ed_pading_top">7.3dp</dimen>
     <dimen name="popular_ed_pading_bottom">6.9dp</dimen>
+    <dimen name="activity_margin_quarter">4dp</dimen>
+    <dimen name="activity_margin_content">24dp</dimen>
 
 
 </resources>
